@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bahsisHesaplayici.css">
+    <title>Bahsis Hesaplayici</title>
+</head>
+<body>
+    
+<div class="kapsayici">
+
+<h1>JS Bahsis Hesaplayici</h1>
+
+<p><label>Hesap Tutari:</label>
+<input type="number" id="faturaMik">
+</p>
+
+<p>
+<label>Bahsis Yüzdesi:</label>
+<input type="range" id="bahsisYuzde" min="0" max="100" >    
+</p>
+
+<div class="yuzdeDiv" style="color: white;margin:10px 0px;" id="yuzdeDiv">Bahsis Yuzdesi: 50%</div>
+
+<input type="button" value="Bahsis Hesapla" id="hesapButon" class="hesapButon">
+
+<div id="hesapDiv" class="box"> Hesap Toplam: 0</div>
+<div id="bahsisDiv" class="box">Bahsis Toplam: 0</div>
+<div id="totalDiv" class="box">Total: 0</div>
+
+<div class="box2"></div>
+
+
+</div>
+
+<script src="../js/bahsisHesaplayici.js"></script>
+
+</body>
+</html>

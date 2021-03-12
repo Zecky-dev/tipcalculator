@@ -1,0 +1,62 @@
+.kapsayici{
+    background-color: rgb(44, 44, 41);
+    padding:10px;
+    display:inline-block;
+    border-radius:4px;
+}
+
+.kapsayici h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgba(255,198,0,1);
+}
+
+.kapsayici label{
+    color:whitesmoke;
+    font-weight: bold;
+}
+
+.kapsayici > #hesapButon{
+    width:100%;
+    padding: 5px;
+}
+
+#bahsisYuzde{
+    position:relative;
+    top:7px;
+    left:5px;
+    width:200px;
+}
+
+#faturaMik{
+    width:200px;
+}
+
+.box{
+    color:white;
+    padding: 10px;
+    background-color: firebrick;
+    margin:8px 0px;
+    border-radius: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hesapButon{
+    transition: all .5s ease;
+    height: 30px;
+    border:none;
+    background-color: rgb(255, 255, 255);
+}
+
+.hesapButon:hover{
+    height: 40px;
+    background-color: rgb(187, 190, 190);
+    cursor: pointer;
+    color:red;
+}
+
+body{
+    background-color: slategrey;
+}
+
+
+
